@@ -42,6 +42,3 @@ def search_youtube(query:str,max_results:int=3) -> list:
         break
 
   return results
-
-if __name__ == "__main__":
-  mcp.run(transport = "http") #http
