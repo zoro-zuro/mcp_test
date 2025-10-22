@@ -1,5 +1,5 @@
 import feedparser
-from mcp.server.fastmcp import FastMCP
+from fastmcp import FastMCP
 
 mcp = FastMCP(name = "Feed Capturer")
 
@@ -42,3 +42,4 @@ def search_youtube(query:str,max_results:int=3) -> list:
         break
 
   return results
+
